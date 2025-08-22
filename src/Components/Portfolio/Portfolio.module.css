@@ -1,0 +1,8 @@
+.layerImg {
+    display: none;
+    background-color: rgba(26, 188, 156, 0.795);}
+.imgWrap:hover .layerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;}

@@ -1,0 +1,10 @@
+#nav {
+    background-color: var(--navFootClr) !important;}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    background-color: var(--bgAbout);
+    color: #fff;
+    border-radius: 5px;}
+.nav-link, .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;}

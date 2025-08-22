@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+
+
+
+
+
+@layer utilities {
+  .container, .fluid {
+    @apply mx-auto
+  }
+  h1, h2, h3, h5, h4, h6 {
+    @apply font-bold
+  }
+  h3 {
+    @apply text-2xl
+  }
+  .setIcon {
+    @apply w-10 h-10 rounded-full border flex items-center justify-center cursor-pointer
+  }
+  .customInput {
+    @apply border-0 border-b outline-0 rounded-sm mb-8 text-[#212529] border-gray-400 text-xl p-2
+  }
+}
+
+@theme {
+  --color-main: #2C3E50;
+  --color-secondary: #1ABC9C;
+}
+
+
+
+
+:root {
+  --bgAbout: #1ABC9C;
+  --navFootClr: #2C3E50;}
+.starLine {
+  position: relative;
+  padding: 0 60px;}
+.starLine::before,
+.starLine::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2.5px;
+  width: 50px;
+  background-color: #fff;}
+.starLine::before {
+  left: 0;}
+.starLine::after {
+  right: 0;}
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: transparent !important;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(13, 110, 253, .25) !important;}
+h2 {
+  font-weight: 700 !important;
+  font-size: 2.5rem !important;}
+
+.active {
+  @apply bg-secondary py-1 px-3 rounded-xl text-white
+}

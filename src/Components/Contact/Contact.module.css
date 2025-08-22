@@ -1,0 +1,7 @@
+/* .contactSec {
+    min-height: 90vh;
+    color: var(--navFootClr);} */
+.starLineContact::after, .starLineContact::before {
+    background-color: var(--navFootClr);}
+.contactForm {
+    background-color: var(--bgAbout) !important;}

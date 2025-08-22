@@ -1,0 +1,5 @@
+:root {
+  --bgAbout: #1ABC9C;}
+.homeSection {
+  min-height: 90vh;
+  background-color: var(--bgAbout)}
